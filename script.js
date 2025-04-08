@@ -13,7 +13,7 @@ function gradeProcess() {
     } else if (Grade > 0 && Grade <= 39) {
       checkGrade.innerHTML = "F - Fail!🤦";
     } else {
-      checkGrade.innerHTML = "Invalid";
+      checkGrade.innerHTML = "Invalid🤦‍♂️";
 
     }
 }

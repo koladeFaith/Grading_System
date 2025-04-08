@@ -3,9 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+ body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: linear-gradient(-45deg, #6a11cb, #2575fc, #6dd5ed, #cc2b5e);
+      background-size: 400% 400%;
+      animation: gradientBG 10s ease infinite;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 2rem;
+    }
+
+    @keyframes gradientBG {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
 .Grading {
   width: 700px;
-  height: 400px;
+  height: 500px;
 
   margin-inline: auto;
   margin-top: 150px;
@@ -26,11 +52,11 @@
   width: 100%;
 }
 .btn1 {
-  padding: 10px 20px;
+  padding: 5px 10px;
   border: none;
   border-radius: 10px;
-  color: white;
-  background-color: rgb(43, 43, 49);
+  color: #6dd5ed;
+  background-color: #2575fc;
 }
 .boder {
   display: flex;
