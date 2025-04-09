@@ -23,7 +23,7 @@ body {
   height: 500px;
 
   margin-inline: auto;
-  margin-top: 150px;
+  
 }
 .container2 {
   padding-top: 40px;
@@ -40,11 +40,14 @@ body {
   width: 100%;
 }
 .btn1 {
-  padding: 5px 10px;
+  padding: 5px 19px;
   border: none;
   border-radius: 10px;
   color: #6dd5ed;
-  background-color: ##cc2b5e;
+  /* background-color: #cc2b5e; */
+}
+.btn1:hover {
+  color: #2575fc;
 }
 .boder {
   display: flex;
@@ -53,7 +56,6 @@ body {
   padding-top: 40px;
 }
 .boder2 {
-  width: 60%;
   text-align: center;
   border: 1px solid gainsboro;
   padding: 25px 25px;
@@ -71,5 +73,10 @@ body {
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+@media (min-width:768) {
+  .Grading{
+    margin-top: 150px;
   }
 }
